@@ -1,0 +1,8 @@
+[package]
+name = "pingui"
+version = "0.1.0"
+authors = ["Piripant <piripant@gmail.com>"]
+
+[dependencies]
+piston_window = "0.80.0"
+nalgebra = "0.16.3"
