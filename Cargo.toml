@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Piripant <piripant@gmail.com>"]
 
 [dependencies]
-piston_window = "0.80.0"
-nalgebra = "0.16.3"
+piston_window = "0.89.0"
+nalgebra = "0.17.2"

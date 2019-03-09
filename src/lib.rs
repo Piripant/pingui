@@ -92,8 +92,8 @@ impl Gui {
         self.input.event(e);
 
         if let Some(dimensions) = e.resize_args() {
-            self.window_size.0 = dimensions[0];
-            self.window_size.1 = dimensions[1];
+            self.window_size.0 = dimensions[0] as u32;
+            self.window_size.1 = dimensions[1] as u32;
             println!("{:?}", self.window_size);
         }
     }
